@@ -19,7 +19,7 @@
     <ul id="messages"></ul>
     <form id="form" action="">
       <input id="nombre" type="text" placeholder="Nombre" autocomplete="off">
-      <input id="input" autocomplete="off" /><button>Send</button>
+      <input id="input" autocomplete="off" /><button>Enviar Mensaje</button>
       <input id="negrita" type="checkbox">Negrita
       <select name="color" id="color" value="black">
         <option value="black">Negro</option>
@@ -73,9 +73,6 @@
           item.style.color="black";
           break;
       }
-
-      // Negrita y color solo cambia en el cliente que lo ha seleccionado, revisar
-      // Probar json
        
       item.textContent = msg;
       messages.appendChild(item);
